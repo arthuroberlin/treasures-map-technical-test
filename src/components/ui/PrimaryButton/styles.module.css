@@ -1,0 +1,27 @@
+.primary__button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+
+	padding: 1rem 1.5rem;
+
+	background-color: #fff;
+	backdrop-filter: blur(10px);
+	border-radius: 0.5rem;
+
+	color: #0a0a0a;
+	font-weight: 600;
+
+	transition: ease-in-out 0.3s;
+}
+
+.primary__button:hover {
+	background-color: #f3f3f3;
+	scale: 1.02;
+}
+
+.primary__button:disabled {
+	background-color: #919191;
+	color: #0a0a0a;
+}

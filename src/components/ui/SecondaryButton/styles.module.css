@@ -1,0 +1,12 @@
+.secondary__button {
+	width: 200px;
+	height: 53px;
+
+	font-size: 1.25rem;
+	color: #fff1d2;
+	font-weight: 700;
+	text-align: center;
+
+	background: url("../../../assets/secondary_button.svg") no-repeat center center;
+	background-size: cover;
+}

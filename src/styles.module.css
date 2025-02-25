@@ -1,0 +1,75 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.layout {
+	flex: 1;
+	display: grid;
+	grid-template: "game__options map output" / 25% 50% 25%;
+	overflow: hidden;
+	border-top: 0.25rem solid #ffffff50;
+}
+
+.layout__col {
+	width: 100%;
+	height: 100%;
+	padding: 1rem;
+}
+
+.layout__game__options,
+.layout__output {
+	overflow-y: auto;
+}
+
+.layout__custom__scrollbar {
+	scrollbar-color: #ffffffbb transparent;
+	scrollbar-width: thin;
+}
+
+.layout__game__options {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+	background: url("./assets/wood_texture.jpg") no-repeat;
+	background-size: cover;
+}
+
+.layout__map {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	overflow: hidden;
+	background: url("./assets/patern_white.svg") repeat center center;
+}
+
+.game__commands {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: -85px;
+}
+
+.layout__output {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+	border-left: 4px solid #2f5373;
+	background: url("./assets/pattern_grid_blueprint.svg") repeat center center;
+}

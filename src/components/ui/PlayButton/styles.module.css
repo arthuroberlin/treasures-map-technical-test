@@ -1,0 +1,12 @@
+.play__button {
+	width: 160px;
+	height: 60px;
+
+	font-size: 1.5rem;
+	color: #fff1d2;
+	font-weight: 700;
+	text-align: center;
+
+	background: url("../../../assets/play__button.svg") no-repeat center center;
+	background-size: cover;
+}

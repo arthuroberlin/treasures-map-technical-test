@@ -1,0 +1,21 @@
+.container {
+	padding: 0.75rem;
+	background: #0076d3;
+	border: 0.5rem solid #003661;
+	border-radius: 1.5rem;
+}
+
+.game__options-list--item--aventurer {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+	padding: 0.5rem;
+
+	border: 3px solid;
+	border-color: #00000025;
+	border-radius: 0.5rem;
+}
