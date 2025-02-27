@@ -28,7 +28,8 @@
 }
 
 .layout__game__options,
-.layout__output {
+.layout__output,
+.layout__map {
 	overflow-y: auto;
 }
 
@@ -51,7 +52,6 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-	overflow: hidden;
 	background: url("./assets/patern_white.svg") repeat center center;
 }
 
